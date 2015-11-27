@@ -149,7 +149,7 @@ public class HttpUtils {
 	 * 向指定url发送POST方法的请求
 	 * 
 	 * @param url
-	 * @param param
+	 * @param params
 	 * @return
 	 */
 	public static String doPost(String url, String params) {

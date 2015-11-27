@@ -34,7 +34,7 @@ ext {
     siteUrl = 'https://github.com/Anumbrella/tools'  //项目的主页
     gitUrl = 'https://github.com/Anumbrella/tools.git'   //Git仓库的url
 
-    libraryVersion = '1.0.0'//版本号
+    libraryVersion = '1.0.1'//版本号
     libraryName = 'tools'//项目名字，没什么用
     libraryDescription = 'tools for Android'//项目描述，没什么用
 
