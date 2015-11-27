@@ -21,9 +21,9 @@
 
  * String getStrTime_ymd_hms(String time) <br/>
    将时间戳转换为“yyyy-MM-dd HH:mm:ss”格式的字符串格式<br/>
-   time:秒<br/><br/>   
+   time:秒<br/>  
  * String getStrTime_ymd_hm(String time)
- * String getStrTime_ymd(String time)
+ * String getStrTime_ymd(String time) 
  * String getStrTime_y(String time)
  * String getStrTime_md_hms(String time)
  * String getStrTime_md(String time)
@@ -58,7 +58,7 @@ Http常用请求
 * void i(String  message)
 * void e(String  message)
 * void v(String  message)<br/>
-以上的方法分别对应Log.d(String tag, String msg),Log.i(String tag, String msg),Log.e(String tag, String msg),Log.v(String tag, String msg)方法
+以上的方法分别对应Log.d(String tag, String msg),Log.i(String tag, String msg),Log.e(String tag, String msg),Log.v(String tag, String msg)方法<br/>
 * void d(String tag,String  message)
 * void i(String tag,String  message)
 * void e(String tag,String  message)
