@@ -21,15 +21,14 @@
 
  * String getStrTime_ymd_hms(String time) <br/>
    将时间戳转换为“yyyy-MM-dd HH:mm:ss”格式的字符串格式<br/>
-   time:秒   
+   time:秒<br/><br/>   
  * String getStrTime_ymd_hm(String time)
  * String getStrTime_ymd(String time)
  * String getStrTime_y(String time)
  * String getStrTime_md_hms(String time)
  * String getStrTime_md(String time)
  * String getStrTime_hm(String time)
- * String getStrTime_hms(String time)
-   <br/>
+ * String getStrTime_hms(String time)<br/>
  上面几种方法都是根据下划线后面的后缀名获取相应格式的时间格式
 
  * String getTime_secod()<br/>
@@ -84,9 +83,10 @@ wifi是否可用<br/>
 
 ###ScreenUtils:
 
+
 * int getScreenWidth(Context context) 
 * int getScreenHeight(Context context)<br/> 
-获取屏幕的宽高
+获取屏幕的宽高<br/>
 
 * int getStatusHeight(Context context)<br/>
 获取状态栏的高度
@@ -125,7 +125,9 @@ wifi是否可用<br/>
 * void showShort(Context context, int message)
 * void showLong(Context context, CharSequence message)
 * void showLong(Context context, int message)<br/>
-* 不同数据类型Toast长、短时间显示信息
+不同数据类型Toast长、短时间显示信息
+<br/>
+<br/>
 * void show(Context context, CharSequence message, int duration)
 * void show(Context context, int message, int duration)<br/>
 不同数据类型的自定义Toast显示
