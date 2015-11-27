@@ -14,20 +14,28 @@
 
 
  * int dp2px(Context context,int dpValue) 
+ 
  * int px2dp(Context context,int pxValue)
 
 
 ###DateUtils:
 
  * String getStrTime_ymd_hms(String time) <br/>
-   将时间戳转换为“yyyy-MM-dd HH:mm:ss”格式的字符串格式<br/>
-   time:秒<br/>  
+     将时间戳转换为“yyyy-MM-dd HH:mm:ss”格式的字符串格式<br/>
+     time:秒
+    
  * String getStrTime_ymd_hm(String time)
+ 
  * String getStrTime_ymd(String time) 
+ 
  * String getStrTime_y(String time)
+ 
  * String getStrTime_md_hms(String time)
+ 
  * String getStrTime_md(String time)
+ 
  * String getStrTime_hm(String time)
+ 
  * String getStrTime_hms(String time)<br/>
  上面几种方法都是根据下划线后面的后缀名获取相应格式的时间格式
 
@@ -46,8 +54,11 @@
 ###HttpUtils:
 
 * void doGetAsyn(final String url, final CallBack callBack)
+
 * void doPostAsyn(final String url, final CallBack callBack)
+
 * String doGet(final String url, String params)
+
 * String doPost(final String url, String params)<br/>
 Http常用请求
 
@@ -55,13 +66,20 @@ Http常用请求
 ###L:
 
 * void d(String  message)
+
 * void i(String  message)
+
 * void e(String  message)
+
 * void v(String  message)<br/>
-以上的方法分别对应Log.d(String tag, String msg),Log.i(String tag, String msg),Log.e(String tag, String msg),Log.v(String tag, String msg)方法<br/>
+以上的方法分别对应Log.d(String tag, String msg),Log.i(String tag, String msg),Log.e(String tag, String msg),Log.v(String tag, String msg)方法
+
 * void d(String tag,String  message)
+
 * void i(String tag,String  message)
+
 * void e(String tag,String  message)
+
 * void v(String tag,String  message)<br/>
 可以在方法里自定义TAG,也可以初始化定义TAG
 
@@ -84,7 +102,8 @@ wifi是否可用<br/>
 ###ScreenUtils:
 
 
-* int getScreenWidth(Context context) 
+* int getScreenWidth(Context context)
+
 * int getScreenHeight(Context context)<br/> 
 获取屏幕的宽高<br/>
 
@@ -106,6 +125,7 @@ wifi是否可用<br/>
 * String getSDCardPath()<br/>
 获取SDCard的路径
 * long getAvaliableSDCardSize()
+
 * long getAllSDCardSize()<br/>
 获取SDCard的存储容量情况
 
@@ -122,13 +142,16 @@ wifi是否可用<br/>
 ###T:
 
 * void showShort(Context context, CharSequence message)
+
 * void showShort(Context context, int message)
+
 * void showLong(Context context, CharSequence message)
+
 * void showLong(Context context, int message)<br/>
 不同数据类型Toast长、短时间显示信息
-<br/>
-<br/>
+
 * void show(Context context, CharSequence message, int duration)
+
 * void show(Context context, int message, int duration)<br/>
 不同数据类型的自定义Toast显示
 
@@ -142,19 +165,20 @@ complie 'net.anumbrella:utils:1.0.1'
   
 ####License:
 
-Copyright 2015 Anumbrella
-
+```bash
+               Copyright 2015 Anumbrella
 Licensed under the Apache License, Version 2.0 (the "License");
 you may not use this file except in compliance with the License.
-You may obtain a copy of the License at
-
-   http://www.apache.org/licenses/LICENSE-2.0
-
+You may obtain a copy of the License at 
+        http://www.apache.org/licenses/LICENSE-2.0
 Unless required by applicable law or agreed to in writing, software
 distributed under the License is distributed on an "AS IS" BASIS,
 WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
 See the License for the specific language governing permissions and
 limitations under the License.
+```
+
+
 
   
   
